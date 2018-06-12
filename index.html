@@ -1,32 +1,69 @@
-<!doctype html> <html lang="en"> <head> <!-- Required meta tags --> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Bootstrap CSS --> <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> <title>Pluralsight Google Charts Examples</title> </head> 
+<!doctype html> 
+<html lang="en"> 
 
-<body>
+	<head> 
+		<!-- Required meta tags --> 
+		<meta charset="utf-8"></meta>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+		<!-- Bootstrap CSS --> 
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> 
+		<script 
+				type="text/javascript"
+				src="https://www.gstatic.com/charts/loader.js">
+		</script>
+		<title>Pluralsight Google Charts Examples</title> 
+	</head> 
+
+	<body>	
+		<div class="container-fluid">
+			<ul class="nav nav-pills">
+	  		<li id="module1" class="active"><a href="#tab-module1" data-toggle="tab">Module 1</a></li>
+	  		<li id="module1" ><a href="#tab-module2" data-toggle="tab">Module 2</a></li>
+	  		<li><a href="#" data-toggle="tab">Menu 2</a></li>
+	  		<li><a href="#" data-toggle="tab">Menu 3</a></li>
+			</ul>
+			 <div class="tab-content clearfix">
+
+	        <div class="tab-pane" id="tab-module1">
+	        	<ul class="nav nav-tabs">
+	  					<li id="tab-areachart" class="active"><a href="#areachart">Area Chart</a></li>
+	  					<li id="tab-piechart" ><a href="#piechart">Pie Chart</a></li>
+	  					<li id="tab-dataview" ><a href="#dataview">Data View</a></li>
+	  					<li id="tab-dataquery" ><a href="#dataquery">Data Query</a></li>
+						</ul>
+  					<div class="tab-content clearfix">
+							<div class="tab-pane active" id="areachart"></div>
+							<div class="tab-pane" id="piechart"></div>
+							<div class="tab-pane" id="dataview"></div>
+							<div class="tab-pane" id="dataquery"></div>
+						</div>
+	      	</div>
+					
+					<div class="tab-pane" id="tab-module2">
+						
+					</div>
+				</div>
+		</div> 
+			 
+	 	<!-- Optional JavaScript --> 
+		<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+		<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">	</script>  -->
+		<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+		<script 
+				src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+				integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+				crossorigin="anonymous"></script> 
+		<script 
+				src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" 
+				integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" 
+				crossorigin="anonymous"></script>
+	 	<script 
+				type="text/javascript" 
+				src="index.js"></script>
+	</body> 
 	
-	<div class="container-fluid">
-		<ul class="nav nav-pills">
-  <li id="module1" class="active"><a href="#1a" data-toggle="tab">Module 1</a></li>
-  <li><a href="#2">Menu 1</a></li>
-  <li><a href="#">Menu 2</a></li>
-  <li><a href="#">Menu 3</a></li>-->
-</ul>
-		 <div class="tab-content clearfix">
-
-        <div class="tab-pane active" id="1a">
-        	<ul class="nav nav-tabs">
-  <li id="tab-areachart" class="active"><a href="#areachart">Area Chart</a></li>
-  
-  <div class="tab-content clearfix">
-  	<div class="tab-pane active" id="areachart"></div>
-  </div>
-        	</div>
-	</div>
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 <!-- Optional JavaScript --> <!-- jQuery first, then Popper.js, then Bootstrap JS --> <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-	 <script type="text/javascript" src="index.js"></script> </body> </html>
+</html>
