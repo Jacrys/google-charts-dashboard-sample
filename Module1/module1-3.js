@@ -15,11 +15,12 @@ function drawChart() {
 	var options = {
 			title: 'Number of Animals Spotted',
 			pieSliceText: 'percentage',
-      legend: {position: 'top', maxLines: 3 },
-			height: 350
+      legend: {position: 'top', alignment: 'center', maxLines: 3 },
+			height: 500,
+			width: 1000
 	}
 
-	var chart = new google.visualization.PieChart(document.getElementById('divChart'));
+	var chart = new google.visualization.PieChart(document.getElementById('divPieChart'));
 	chart.draw(convertedData, options);
 }
 
