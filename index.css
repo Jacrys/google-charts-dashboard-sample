@@ -1,21 +1,30 @@
 .chart-container {
   transform: translate(0,10%);
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
-#divDataView {
-  transform: translate(0,45%);
+.chart {
+  width: 100%;
+  min-height: 450px;
 }
 
-.display-4 {
+.row {
+  margin:0 !important;
+}
+
+#divDataView, #divDataQuery {
+  transform: translate(30%,0);
+}
+
+/* .display-4 {
   text-align: center;
 }
 
 .lead {
   text-align: center;
-}
+} */
 
 .jumbotron {
   margin-bottom: 5px;
@@ -31,11 +40,17 @@
   background-color: #007bff;
 }
 
-#divPieChart > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1) > g:nth-child(4) {
-  width:100% !important;
-}
-
 .nav-tabs .nav-link {
   border-top-left-radius: .45rem;
   border-top-right-radius: .45rem;
+}
+
+#divAreaChart > div:nth-child(1) > div:nth-child(1) {
+  min-width: 43vw;
+  min-height: 34vh;
+}
+
+#divPieChart > div:nth-child(1) > div:nth-child(1) {
+  min-width: 43vw;
+  min-height: 34vh;
 }

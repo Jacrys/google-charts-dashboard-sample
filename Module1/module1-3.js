@@ -15,9 +15,7 @@ function drawChart() {
 	var options = {
 			title: 'Number of Animals Spotted',
 			pieSliceText: 'percentage',
-      legend: {position: 'top', alignment: 'center', maxLines: 3 },
-			height: 500,
-			width: 1000
+      legend: {position: 'top', alignment: 'center', maxLines: 3 }
 	}
 
 	var chart = new google.visualization.PieChart(document.getElementById('divPieChart'));

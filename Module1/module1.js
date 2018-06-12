@@ -24,9 +24,7 @@ function drawChart() {
 		var options = {
 				title: 'Number of Days Per Month in 2016',
 				animation: { startup: true, duration: 2000 },
-				legend: { position: 'none' },
-				width: 700,
-				height: 400
+				legend: { position: 'none' }
 		}
 
 		var chart = new google.visualization.AreaChart(document.getElementById('divAreaChart'));
