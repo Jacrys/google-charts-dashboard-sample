@@ -28,7 +28,7 @@ function drawChart() {
 	]);
 	dataView.setRows(rowsWeNeed);
 
-	var chart = new google.visualization.Table(document.getElementById('divChart'));
+	var chart = new google.visualization.Table(document.getElementById('divDataView'));
 	chart.draw(dataView, {});
 }
 

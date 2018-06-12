@@ -15,6 +15,6 @@ function retrieveData() {
 function gotResponse(response) {
 	var dataTable = response.getDataTable();
 
-	var chart = new google.visualization.Table(document.getElementById('divChart'));
+	var chart = new google.visualization.Table(document.getElementById('divDataQuery'));
 	chart.draw(dataTable, {});
 }

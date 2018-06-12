@@ -1,0 +1,41 @@
+.chart-container {
+  transform: translate(0,10%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#divDataView {
+  transform: translate(0,45%);
+}
+
+.display-4 {
+  text-align: center;
+}
+
+.lead {
+  text-align: center;
+}
+
+.jumbotron {
+  margin-bottom: 5px;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #007bff;
+}
+
+#divPieChart > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1) > g:nth-child(4) {
+  width:100% !important;
+}
+
+.nav-tabs .nav-link {
+  border-top-left-radius: .45rem;
+  border-top-right-radius: .45rem;
+}
