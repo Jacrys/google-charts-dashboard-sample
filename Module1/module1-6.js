@@ -17,4 +17,7 @@ function gotResponse(response) {
 
 	var chart = new google.visualization.Table(document.getElementById('divDataQuery'));
 	chart.draw(dataTable, {});
+
+	document.querySelector('.google-visualization-table').style.position = "static"
+	document.querySelector('.google-visualization-table > div').style.position = "static"
 }
